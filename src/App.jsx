@@ -19,7 +19,6 @@ function App() {
           <Route path='/movie' element={<MovieContextProvider><Movie /></MovieContextProvider>} />
           <Route path='/people' element={<People />} />
           <Route path='/tv' element={<TV />} />
-        
       </Routes>
 
       <Footer />

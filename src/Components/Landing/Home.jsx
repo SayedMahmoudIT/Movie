@@ -10,7 +10,7 @@ export default function Home() {
   
   return <>
   <div className="container px-4">
-    <h2 className='text-black font-bold my-3'>Now Playing</h2>
+    <h2 className='text-black font-bold my-3 text-4xl'>Featured Movie</h2>
     <div className='grid grid-cols-4 gap-4'>
         {movieList&&movieList.map((item)=><MovieCard  key={item.id} object={item}/> )}
     </div>
