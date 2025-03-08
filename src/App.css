@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
-.active{
+.active {
     background-color: var(--color-gray-900);
     color: var(--color-red-300)
+}
+
+.rating-flex {
+    display: flex !important;
 }
